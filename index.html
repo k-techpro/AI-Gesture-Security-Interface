@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Security Air Draw</title>
+  <link rel="stylesheet" href="style.css" />
+  <script async src="https://docs.opencv.org/4.x/opencv.js"></script>
+</head>
+<body>
+  <div id="statusPanel">
+    <div id="motionStatus">Motion: Waiting</div>
+    <div id="personStatus">Person: Waiting</div>
+    <div id="handStatus">Hand: Waiting</div>
+    <div id="modeStatus">Mode: Idle</div>
+  </div>
+
+  <video id="video" autoplay playsinline muted></video>
+  <canvas id="overlay"></canvas>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
