@@ -28,4 +28,4 @@ This project combines **hand tracking, motion detection, and human interaction v
 
 ---
 
-## Project Structure
+Created by **kombaiya** **k-techpro**
